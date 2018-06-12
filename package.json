@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ghasemkiani/steembottrackerapi#readme",
   "dependencies": {
-    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase"
+    "@ghasemkiani/commonbase": "https://gitlab.com/ghasemkiani/commonbase.git"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
