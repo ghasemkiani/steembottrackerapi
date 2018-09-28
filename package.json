@@ -1,6 +1,6 @@
 {
   "name": "@ghasemkiani/steembottrackerapi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple utility to get the list of bots from steembottracker",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ghasemkiani/steembottrackerapi#readme",
   "dependencies": {
-    "@ghasemkiani/commonbase": "https://gitlab.com/ghasemkiani/commonbase.git"
+    "@ghasemkiani/commonbase": "https://github.com/ghasemkiani/commonbase.git"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
