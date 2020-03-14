@@ -1,10 +1,9 @@
 {
   "name": "@ghasemkiani/steembottrackerapi",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple utility to get the list of bots from steembottracker",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
     "start": "node -e \"require('@ghasemkiani/steembottrackerapi/demo');\""
   },
   "repository": {
@@ -26,7 +25,5 @@
   "dependencies": {
     "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase"
   },
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  }
+  "devDependencies": {}
 }
