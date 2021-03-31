@@ -1,12 +1,13 @@
 //	@ghasemkiani/steembottrackerapi
 
-const {fetcher} = require("@ghasemkiani/commonbase/web/client");
 const {cutil} = require("@ghasemkiani/commonbase/cutil");
 const {Base} = require("@ghasemkiani/commonbase/base");
+const {fetcher} = require("@ghasemkiani/net-utils/web/client");
 
 class SteemBotTrackerAPI extends cutil.mixin(Base, fetcher) {
 	async toUpdate() {
-		this.bots = await this.toFetch({url: this.url}).json;
+		let rsp = await this.toFetch({url: this.url});
+		this.bots = await rsp.json();
 		return this;
 	}
 }
