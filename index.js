@@ -1,7 +1,7 @@
 //	@ghasemkiani/steembottrackerapi
 
-const {cutil} = require("@ghasemkiani/base/cutil");
-const {Obj: Base} = require("@ghasemkiani/base/obj");
+import {cutil} from "@ghasemkiani/base";
+import {Obj as Base} from "@ghasemkiani/base";
 const {fetcher} = require("@ghasemkiani/net-utils/web/client");
 
 class SteemBotTrackerAPI extends cutil.mixin(Base, fetcher) {
@@ -16,4 +16,4 @@ cutil.extend(SteemBotTrackerAPI.prototype, {
 	bots: null,
 });
 
-module.exports = {SteemBotTrackerAPI};
+export {SteemBotTrackerAPI};
